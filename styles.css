@@ -13,12 +13,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
 }
 
 h1 {
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -26,35 +25,26 @@ p {
   font-size: 18px;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  width: 50px;
-  border-top: 2px solid #ccc;
-  margin: 20px auto 25px auto;
-}
-
 .circle {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.3);
   font-size: 24px;
   color: white;
-  line-height: 118px;
+  line-height: 85px;
   text-align: center;
   border: 2px solid white;
 }
 
 .circle-red {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background: rgba(202, 12, 12, 0.3);
   font-size: 24px;
   color: white;
-  line-height: 118px;
+  line-height: 85px;
   text-align: center;
   border: 2px solid white;
 }
