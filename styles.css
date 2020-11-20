@@ -1,8 +1,19 @@
 body {
-  background: url("assets/jeep.jpg") no-repeat fixed 0 0 / cover;
   font-family: "Lato", sans-serif;
   color: white;
   text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.showcase {
+  background: url("assets/jeep.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
 }
 
 h1 {
